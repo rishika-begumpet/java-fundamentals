@@ -1,7 +1,7 @@
-public class Naturalnumbers {
+public class Naturalnumbersreverse {
     public static void main(String[] args) {
         int n = 100;
-        for (int i = 1; i <= n; i++)
+        for (int i = n; i >= 1; i--)
             System.out.println(" Naturals Numbers are : " + i);
     }
 }
